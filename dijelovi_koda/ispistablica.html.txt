@@ -1,0 +1,82 @@
+<div id="tablicaputninalog">
+    <table class="table">
+        <thead class="thead-light">
+            <th scope="col">Id Putnog Naloga</th>
+            <th scope="col">Aktivan</th>
+            <th scope="col">Odrediste</th>
+            <th scope="col">Datum Polaska</th>
+            <th scope="col">Datum Povratka</th>
+            <th scope="col">Cijena</th>
+            <th scope="col">Trajanje</th>
+            <th scope="col">Vrsta prijevoza</th>
+            </thead>
+            <tbody id="pnanswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicavozilo">
+    <table class="table">
+      <thead class="thead-light">
+        <th scope="col">ID Vozila</th>
+        <th scope="col">Marka vozila</th>
+        <th scope="col">Cijena po km</th>
+        <th scope="col">Vrsta vozila</th>
+      </thead>
+      <tbody id="vanswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicagrad">
+    <table class="table">
+      <thead class="thead-light">
+        <th scope="col">Id Grada</th>
+        <th scope="col">Naziv Grada</th>
+        <th scope="col">Latituda</th>
+        <th scope="col">Longituda</th>
+      </thead>
+      <tbody id="ganswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicastatus">
+    <table class="table">
+      <thead class="thead-light">
+        <th scope="col">Id statusa</th>
+        <th scope="col">Status poruka</th>
+      </thead>
+      <tbody id="sanswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicadodatnitroskovi">
+    <table class="table">
+      <thead class="thead-light">
+        <th scope="col">Id Troska</th>
+        <th scope="col">Opis Troska</th>
+        <th scope="col">Id putnog naloga</th>
+        <th scope="col">Cijena</th>
+      </thead>
+      <tbody id="danswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicapovezivanja">
+    <table class="table">
+      <thead class="thead-light">
+        <th scope="col">Id Grada</th>
+        <th scope="col">Napomena</th>
+        <th scope="col">OIB Putnika</th>
+        <th scope="col">Id putnog naloga</th>
+        <th scope="col">Id statusa</th>
+        <th scope="col">Svrha putovanja</th>
+        <th scope="col">Id vozila</th>
+      </thead>
+      <tbody id="panswer"></tbody>
+    </table>
+  </div>
+  <div id="tablicaputnika">
+    <table class="table">
+      <thead class="thead-light">
+      <th scope="col">OIB Putnika</th>
+      <th scope="col">Ime putnika</th>
+      <th scope="col">Prezime Putnika</th>
+      <th scope="col"> Email putnika</th>
+      </thead>
+      <tbody id="puanswer"></tbody>
+    </table>
+  </div>

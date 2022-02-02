@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <title>Prijava/Registracija</title>
+  <link rel="stylesheet" href="css/registracijaprijava.css">
+  <link rel="stylesheet" href="assets/plugins/bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
+  <meta name="description" content="Administracija putnih naloga">
+  <meta name="keywords" content="putninalozi, putni_nalozi, VSMTI_PutniNalozi">
+  <meta name="author" content="Nikola Stjepanović">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="forms-out">
+    <div class="forms-in">
+      <div id="registration-page" class="hide">
+        <button id="show-login"class="btn btn-dark btn btn-secondary btn-sm" >Prijava</button><br><br>
+        <h3 class="text-warning">Registracija</h3 class="text-warning">Email<br/>
+        <input type="email" id="registration-email" /><br/>Ponovno unesite Email<br/>
+        <input type="email"id="registration-reemail" autocomplete="disable"/><br/> Lozinka (mora imati minimalno 7 znakova) <br/>
+        <input type="password" id="registration-password" /><br />
+        <center><button id="register" class="btn btn-danger">Registriraj se</button></center>
+      </div>
+
+      <div id="login-page">
+        <button id="show-register" class="btn btn-dark btn btn-secondary btn-sm">Registracija</button><br><br>
+        <h3 class="text-warning">Prijava</h3>
+        Email <br />
+        <input type="email" id="login-email" /><br />
+        Lozinka <br />
+        <input type="password" id="login-password" /><br />
+        <p id="forgot-password">Zaboravili ste lozinku?</p>
+        <center><button id="login" class="btn btn-success btn-rounded">Prijava</button></center>
+      </div>
+
+      <div id="homepage" class="hide">
+        <button id="signout" class="btn btn-dark">Odjavite se</button><br><br><br>
+        <h3>Uspješno ste prijavljeni!</h3>
+        <h3>Nakon 3 sekunde biti ćete prebačeni na slijedeću stranicu</h3>
+      </div>
+    </div>
+</div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js"></script>
+  <script src="js/login.js"></script>
+  <script>
+  </script>
+</body>
+</html>

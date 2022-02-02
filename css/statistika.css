@@ -1,0 +1,20 @@
+#desniitem
+{
+	float:right !important;
+}
+
+body,.card-body {
+  background-color: lightblue;
+	margin: 0px 0px 0px 0px;
+  background-image: url("../img/triangular.png");
+}
+#piechart
+{
+		width: 900px;
+		height: 500px;
+		margin:auto;
+}
+a
+{
+  text-decoration:none;
+}

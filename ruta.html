@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <title>Ruta</title>
+  <link rel="stylesheet" href="assets/plugins/bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/ruta.css">
+  <meta name="description" content="Karta">
+  <meta name="keywords" content="putninalozi, putni_nalozi, VSMTI_PutniNalozi">
+  <meta name="author" content="Nikola Stjepanović">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+      <a class="navbar-brand nav-link active" href="ruta">Rute</a>
+      <div class="collapse navbar-collapse" id="navbarText">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="nadzornaploca">Nadzorna ploča</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="statistika">Statistika</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="izvjesca">Izvješća</a>
+    </li>
+  </ul>
+      <span class="navbar-text">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-dark btn-sm" id="desniitem" disabled></button>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#logoutModal"><button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-log-out" id="odjava"></span> Odjava </button></a>
+      </div>
+    </div>
+    </span>
+  </div>
+    </nav>
+  </header>
+  <label class="tesktodabirodredista">Odaberite odredište:
+<input list="odabirgradruta" name="mojigradovi" /></label>
+<datalist id="odabirgradruta">
+</datalist>
+<div class="tablicarute"><div class="d-flex justify-content-center">
+</div></div>
+
+<div class="modal" id ="logoutModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Jeste li sigurni da se želite odjaviti?</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Ako se odjavite morat ćete se opet prijaviti ponovno sa vašim e-mailom i lozinkom.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+        <button type="button" class="btn btn-danger" id="odjavise">Odjava</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js"></script>
+  <script src="assets/plugins/jquery/jquery-3.5.1.min.js"></script>
+  <script src="assets/plugins/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+  <script src="js/firebase_rute.js"></script>
+ </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+  background-color: lightblue;
+	margin: 0px 0px 0px 0px;
+  background-image: url("../img/triangular.png");
+}
+#desniitem
+{
+	float:right !important;
+}
+a
+{
+  text-decoration:none;
+}

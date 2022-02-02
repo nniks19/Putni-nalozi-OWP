@@ -1,0 +1,61 @@
+body
+{
+  background-image: url('https://images.unsplash.com/photo-1546414654-1175d01ad8c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.forms-out {
+margin: 0 auto;
+font-family: "Fira Sans", sans-serif;
+padding: 235px 0;
+}
+
+.forms-in {
+width: 93%;
+margin: 0 auto;
+color: white;
+padding: 15px 0;
+}
+
+.forms-in div {
+padding: 30px 20px;
+max-width: 350px;
+margin: 0 auto;
+background-color: rgba(0,0,0,0.5) !important;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+.forms-in h3 {
+text-align: center;
+}
+
+.forms-in input {
+border: none;
+width: 100%;
+margin-bottom: 15px;
+padding: 10px;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+
+
+.forms-in button:hover {
+opacity: 0.7;
+}
+
+.hide {
+display: none;
+}
+
+#forgot-password {
+text-align: center;
+font-size: 13                                                               px;
+cursor: pointer;
+color:white;
+}
+
+#forgot-password:hover {
+opacity: 0.7;
+}
